@@ -148,6 +148,11 @@ article > div > p
     text-indent: 30px;
 }
 
+.img
+{
+    text-align: justify;
+}
+
 footer
 {
     font-family: Roboto, sans-serif;
