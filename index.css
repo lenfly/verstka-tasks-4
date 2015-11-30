@@ -68,6 +68,7 @@ article > div
 .dateYearNumber
 {
     margin-top: 10%;
+    text-align: justify;
 }
 
 .date
@@ -84,7 +85,7 @@ article > div
     font: small-caps 30px Slavjanic;
     vertical-align: text-bottom;
     color: #403b37;
-    margin-left: 4.2%;
+    margin-left: 5%;
 }
 
 .year
@@ -102,7 +103,7 @@ article > div
     font-family: Slavjanic;
     font: 54px Slavjanic;
     color: #403b37;
-    margin-left: 27%;
+    text-align: center;
 }
 
 .hdFirst
@@ -120,7 +121,7 @@ article > div
     font-family: Roboto, sans-serif;
     font: small-caps 22px Roboto;
     color: #403b37;
-    margin-left: 29%;
+    text-align: center;
 }
 
 .lItem
@@ -153,6 +154,5 @@ footer
     font: 15px Roboto;
     color: #403b37;
     text-align: right;
-
     margin-right: 21%;
 }
