@@ -4,25 +4,6 @@ body
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*
-@font-face
-{
-    font-family: IndUcs;
-    src: local('IndUcs.ttf') format('truetype');
-    src: url('IndUcs.woff2') format('woff2'),
-        url('IndUcs.woff') format('woff'),
-        url('IndUcs.eot') format('eot');
-}
-@font-face
-{
-    font-family: StaroUspenskayaCapskUcs;
-    src: local('StusSoCKUcs.ttf') format('truetype');
-    src: url('StusSoCKUcs.woff2') format('woff2'),
-        url('StusSoCKUcs.woff') format('woff'),
-        url('StusSoCKUcs.eot') format('eot');
-}
-StusSoCKUcs
-*/
 
 @font-face
 {
