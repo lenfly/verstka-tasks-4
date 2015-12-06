@@ -2,6 +2,7 @@ body
 {
     background-image: url(backgroundDes2.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 /*
 @font-face
@@ -32,76 +33,41 @@ StusSoCKUcs
         url('Slavjanic.eot') format('eot');
 }
 
-article > div
-{
-    -webkit-column-count: 3; /* Safari & Chrome */
-    -webkit-column-rule: 3px dotted #ccc;
-    -moz-column-count: 3; /* Firefox */
-    -moz-column-rule: 3px dotted #ccc;
-    -ms-column-count: 3; /* Internet Explorer */
-    -ms-column-rule: 3px dotted #ccc;
-    -o-column-count: 3; /* Opera */
-    -o-column-rule: 3px dotted #ccc;
-    column-count: 3; /* W3C */
-    column-rule: 3px dotted #ccc;
-}
-
-/*
-@font-face
-{
-    font-family: Slavjanic;
-    src: local('Slavjanic.ttf') format('truetype')
-         url('Slavjanic.woff') format('woff');
-}
-
-@font-face
-{
-    font-family: '7733';
-    src: local(7733.ttf),
-        url('7733.eot') format('embedded-opentype'),
-        url('7733.woff') format('woff'),
-        url('7733.ttf')  format('truetype'),
-        url('7733.svg#svgFontName') format('svg');
-}
-*/
-
 .dateYearNumber
 {
-    margin-top: 10%;
-    text-align: justify;
+
+    margin-top: 8%;
+    margin-right: 7vw;
+    vertical-align: baseline;
+    text-align: center;
 }
 
 .date
 {
     font-family: Slavjanic;
-    font: 18px Slavjanic;
+    font: 1.7vw Slavjanic;
     color: #403b37;
-    margin-left: 29%;
 }
 
 .number
 {
     font-family: Slavjanic;
-    font: small-caps 30px Slavjanic;
-    vertical-align: text-bottom;
+    font: small-caps 2.8vw Slavjanic;
     color: #403b37;
-    margin-left: 5%;
+    margin: 3.5vw;
 }
 
 .year
 {
     font-family: Slavjanic;
-    font: 18px Slavjanic;
+    font: 1.7vw Slavjanic;
     color: #403b37;
-    margin-top: 0.7%;
-    margin-right: 35%;
-    float: right;
 }
 
 .headline
 {
     font-family: Slavjanic;
-    font: 54px Slavjanic;
+    font: 4.5vw Slavjanic;
     color: #403b37;
     text-align: center;
 }
@@ -109,6 +75,12 @@ article > div
 .hdFirst
 {
     letter-spacing: 5.5px;
+}
+
+.img
+{
+    text-align: justify;
+    max-width: 10vmin;
 }
 
 .hdSecond
@@ -119,15 +91,30 @@ article > div
 .underHeadLine
 {
     font-family: Roboto, sans-serif;
-    font: small-caps 22px Roboto;
+    font: small-caps 2.2vw Roboto;
     color: #403b37;
     text-align: center;
 }
 
 .lItem
 {
+    -webkit-column-count: 3; /* Safari & Chrome */
+    -webkit-column-rule: 3px dotted #ccc;
+    -webkit-column-fill: balance-all;
+    -moz-column-count: 3; /* Firefox */
+    -moz-column-rule: 3px dotted #ccc;
+    -moz-column-fill: balance-all;
+    -ms-column-count: 3; /* Internet Explorer */
+    -ms-column-rule: 3px dotted #ccc;
+    -ms-column-fill: balance-all;
+    -o-column-count: 3; /* Opera */
+    -o-column-rule: 3px dotted #ccc;
+    -o-column-fill: balance-all;
+    column-count: 3; /* W3C */
+    column-rule: 3px dotted #ccc;
+    column-fill: balance;
     font-family: Roboto, sans-serif;
-    font: 15px Roboto;
+    font: 1.4vmin Roboto;
     color: #403b37;
     margin-left: 22%;
     margin-right: 21%;
@@ -136,27 +123,27 @@ article > div
 article > div > strong
 {
     font-family: Roboto, sans-serif;
-    font: 17px Roboto;
+    font: 2vmin Roboto;
     font-weight: bold;
     text-align: center;
-    margin-left: 12%;
+    margin-left: 2vw;
 }
 
 article > div > p
 {
     text-align: justify;
-    text-indent: 30px;
+    text-indent: 1.6vw;
 }
 
-.img
+.imgIdol
 {
-    text-align: justify;
+    float: left;
 }
 
 footer
 {
     font-family: Roboto, sans-serif;
-    font: 15px Roboto;
+    font: 1.4vmin Roboto;
     color: #403b37;
     text-align: right;
     margin-right: 21%;
