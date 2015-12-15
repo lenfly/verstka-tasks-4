@@ -122,7 +122,16 @@ article > div > p
 
 .imgIdol
 {
-    float: left;
+    float: center;
+    margin-left: 1.5vw;
+    -webkit-column-break-before: always;
+    -webkit-column-break-after: always;
+    -moz-column-break-before: always;
+    -moz-column-break-after: always;
+    -ms-column-break-before: always;
+    -ms-column-break-after: always;
+    -o-column-break-before: always;
+    -o-column-break-after: always;
 }
 
 section > footer
