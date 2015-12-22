@@ -84,25 +84,6 @@ td
     text-align: center;
 }
 
-#smallFont:checked + .lItem
-{
-    font-family: Roboto, sans-serif;
-    font: 10px Roboto;
-    font-size: smaller;
-}
-
-#normFont:checked + .lItem
-{
-    font-family: Roboto, sans-serif;
-    font: 15px Roboto;
-}
-
-#bigFont:checked + .lItem
-{
-    font-family: Roboto, sans-serif;
-    font: 20px Roboto;
-}
-
 .lItem
 {
     -webkit-column-count: 3; /* Safari & Chrome*/
@@ -121,9 +102,25 @@ td
     column-fill: balance;
     font-family: Roboto, sans-serif;
     font: 15px Roboto;
-    text-align: center;
+    text-align: justify;
+    text-indent: 30px;
     color: #403b37;
     margin: 0 22% 7vh 22%;
+}
+
+input#smallFont:checked ~ .lItem
+{
+    font: 10px Roboto;
+}
+
+input#normFont:checked ~ .lItem
+{
+    font: 15px Roboto;
+}
+
+input#bigFont:checked ~ .lItem
+{
+    font: 20px Roboto;
 }
 
 h2
@@ -133,12 +130,6 @@ h2
     font-weight: bold;
     text-align: center;
     margin-left: 0.5vw;
-}
-
-article > div > p
-{
-    text-align: justify;
-    text-indent: 30px;;
 }
 
 .imgIdol
