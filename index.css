@@ -15,21 +15,14 @@ body
         url('Slavjanic.eot') format('eot');
 }
 
-.block
-{
-    display: inline-block;
-    -webkit-column-count: 3; /* Safari & Chrome*/
-    -webkit-column-rule: 3px dotted #ccc;
-    text-align: center;
-    margin-left: 21vw;
-    margin-top: 15vh;
-}
 
-body > div > span
+table
 {
     font-family: Slavjanic;
     color: #403b37;
     vertical-align: baseline;
+    text-align: center;
+    margin: 5vh auto;
 }
 
 .date
@@ -54,7 +47,7 @@ body > div > span
     font: 54px Slavjanic;
 }
 
-h1
+td
 {
     font-family: Slavjanic;
     font: 54px Slavjanic;
@@ -70,6 +63,7 @@ h1
 {
     text-align: justify;
     max-width: 10vmin;
+    margin: 5px;
 }
 
 .hdSecond
@@ -130,11 +124,6 @@ h1
     text-align: center;
     color: #403b37;
     margin: 0 22% 7vh 22%;
-    /*min-width: 200px;
-    max-width: 60vw;
-    min-height: 400px;
-    max-height: 50vh;*/
-    overflow: hidden;
 }
 
 h2
