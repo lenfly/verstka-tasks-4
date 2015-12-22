@@ -3,7 +3,7 @@ body
     background-image: url(backgroundDes2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    min-width: 800px;
 }
 
 @font-face
@@ -15,41 +15,50 @@ body
         url('Slavjanic.eot') format('eot');
 }
 
-.dateYearNumber
+.block
 {
-    margin: 8% 7vw 0 0;
-    vertical-align: baseline;
+    display: inline-block;
+    -webkit-column-count: 3; /* Safari & Chrome*/
+    -webkit-column-rule: 3px dotted #ccc;
     text-align: center;
+    margin-left: 21vw;
+    margin-top: 15vh;
+}
+
+body > div > span
+{
+    font-family: Slavjanic;
+    color: #403b37;
+    vertical-align: baseline;
 }
 
 .date
 {
-    font-family: Slavjanic;
-    font: 1.7vw Slavjanic;
-    color: #403b37;
+    font: 18px Slavjanic;
 }
 
 .number
 {
-    font-family: Slavjanic;
+
     font: small-caps 2.8vw Slavjanic;
-    color: #403b37;
-    margin: 3.5vw;
 }
 
 .year
 {
-    font-family: Slavjanic;
-    font: 1.7vw Slavjanic;
-    color: #403b37;
+
+    font: 18px Slavjanic;
 }
 
 .headline
 {
+    font: 54px Slavjanic;
+}
+
+h1
+{
     font-family: Slavjanic;
-    font: 4.5vw Slavjanic;
+    font: 54px Slavjanic;
     color: #403b37;
-    text-align: center;
 }
 
 .hdFirst
@@ -71,14 +80,37 @@ body
 .underHeadLine
 {
     font-family: Roboto, sans-serif;
-    font: small-caps 2.2vw Roboto;
+    font: small-caps 22px Roboto;
     color: #403b37;
     text-align: center;
 }
 
+.changeFont
+{
+    text-align: center;
+}
+
+#smallFont:checked + .lItem
+{
+    font-family: Roboto, sans-serif;
+    font: 10px Roboto;
+    font-size: smaller;
+}
+
+#normFont:checked + .lItem
+{
+    font-family: Roboto, sans-serif;
+    font: 15px Roboto;
+}
+
+#bigFont:checked + .lItem
+{
+    font-family: Roboto, sans-serif;
+    font: 20px Roboto;
+}
+
 .lItem
 {
-    position: absolute;
     -webkit-column-count: 3; /* Safari & Chrome*/
     -webkit-column-rule: 3px dotted #ccc;
     -moz-column-count: 3; /* Firefox */
@@ -98,10 +130,10 @@ body
     text-align: center;
     color: #403b37;
     margin: 0 22% 7vh 22%;
-    min-width: 200px;
+    /*min-width: 200px;
     max-width: 60vw;
     min-height: 400px;
-    max-height: 50vh;
+    max-height: 50vh;*/
     overflow: hidden;
 }
 
@@ -117,12 +149,11 @@ h2
 article > div > p
 {
     text-align: justify;
-    text-indent: 1.6vw;
+    text-indent: 30px;;
 }
 
 .imgIdol
 {
-    float: center;
     margin-left: 1.5vw;
     -webkit-column-break-before: always;
     -webkit-column-break-after: always;
@@ -134,12 +165,10 @@ article > div > p
     -o-column-break-after: always;
 }
 
-section > footer
+.author
 {
-    position: relative;
     font-family: Roboto, sans-serif;
     font: 15px Roboto;
     color: #403b37;
     text-align: right;
-    margin: 0 21% 0 0;
 }

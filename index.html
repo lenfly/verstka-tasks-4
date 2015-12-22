@@ -8,28 +8,28 @@
     <body>
         <!-- Здесь применять вашу самую сильную магию -->
         <header>
-            <div class="dateYearNumber">
-                <!-- <table>
-                    <tr>
-                        <th class="date"><time>Суббота, 25-го Ноября</time></th>
-                        <th class="number">&numero; 10</th>
-                        <th class="year"><time>1915 года.</time></th>
-                    </tr>
-                </table> -->
-                <span class="date"><time>Суббота, 25-го Ноября</time></span>
-                <span class="number">&numero; 10</span>
-                <span class="year"><time>1915 года.</time></span>
-            </div>
-            <h1
-                class="headline" role="banner">
-                <span class="hdFirst">Пермскія</span>
-                <img
+            <div class="block">
+                <span class="date"><time>Суббота, 25-го Ноября</time></span><br>
+                <h1><span class="hdFirst">Пермскія</span></h1>
+                <span class="number">&numero; 10</span><br>
+                <h1><img
                     class="img" src="emblemDesDraw.png" width="70" alt="Герб">
-                <span class="hdSecond">ведомости</span>
-            </h1>
+                </h1>
+                <span class="year"><time>1915 года.</time></span><br>
+                <h1><span class="hdSecond">ведомости</span></h1>
+            </div>
             <p class="underHeadLine">Выходятъ два раза въ неделю: по Средамъ и Субботамъ</p>
         </header>
         <main>
+            <div class="changeFont">
+                <span>Размер шрифта:</span>
+                <input type="radio" name="fontSize" id="smallFont">
+                <label for="smallFont">Махонький</label>
+                <input type="radio" name="fontSize" id="normFont" checked="checked">
+                <label for="normFont">Нормуль</label>
+                <input type="radio" name="fontSize" id="bigFont">
+                <label for="bigFont">Крупняга</label>
+            </div><br>
             <section>
                 <header>
                 <article>
@@ -44,11 +44,11 @@
                             торфянике, на восточном склоне Среднего Урала северо-западнее Екатеринбурга, близ
                             деревни Калата (ныне город Кировград) — в это время там открыли месторождение
                             россыпного золота, и рабочие начали находить необычные предметы из рога, кости,
-                            дерева, камня, глины.    </em><br>
+                            дерева, камня, глины.</em><br>
                             <img class="imgIdol"
                                 src="idolOld.jpg"
                                 alt="Симпатишная голова"
-                                srcset="idolOld.jpg 1300w, idolOldSmall.jpg 500w">
+                                srcset="idolOld.jpg 1300w, idolOldSmall.jpg 500w"><br>
                             Все предметы были в прекрасной сохранности. В XIX — начале
                             XX века Шигирский торфяник исследовали специалисты из Москвы и Петербурга, Казани
                             и Парижа. Они доподлинно установили, что это — «следы доисторического селища».
@@ -85,8 +85,8 @@
                             географии и этнографии Казанского университета, Государственный исторический
                             музей (Москва), Национальный музей в Хельсинки, Парижский музей естествознания.
                             Основная же часть находок осталась в Екатеринбурге.
-                        </p>
-                        <p>№9142<br>Д. И. Калиновскій</p>
+                        </p><br>
+                        <div class="author">№9142<br>Д. И. Калиновскій</div>
                     </div>
                 </article>
                 </header>
